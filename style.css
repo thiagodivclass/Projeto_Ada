@@ -217,13 +217,34 @@ main form input + button {
 }
 
 
+.we {
 
-.bloco {
-   
-    margin-top: 4rem;
-    display: flex;
-    
+margin-top: 2em;
+
+
+
 }
+
+
+.we h1 span, .all h2 span  {
+    color: #FF5678
+
+}
+
+
+   
+  
+.we h1 {
+
+font-size: 6.4rem;
+font-weight: 500;
+line-height: 7.5rem;
+text-align: center;
+
+}
+
+
+
 
 .all h2 {
 
@@ -237,13 +258,14 @@ main form input + button {
 .all {
     width: 70rem;
     height: 50.5rem;
-    margin-top: 2.5rem;
-    margin-left: 30rem;
+    margin-top: 2.5rem;   
+    margin-left: auto;
+    margin-right: auto;
     border: var(--defalt-border);
     border-radius: var(--defalt-border-radius);
-    padding: 4.4rem 5.7rem;
-    position: relative;
-    align-content: center;
+    padding: 40px 80px 40px 40px;
+  
+   
 
 
 }
@@ -269,64 +291,101 @@ main form input + button {
 
 
 .center {
-    margin-top: 1.6rem;
+    margin-top: 4.5rem;
+    margin-left: 2em;
    
 }
 
 
-
-
-
-
-.center label {
-    font-size: 2.4rem;
-    font-weight: 500;
-    text-transform: none;
-    margin-bottom: 1rem;
-    display: block;
-    margin-top: 1rem;
-    margin-left: 3rem;
-    font-family: Poppins;
-
-}
-
-
-.center input {
-
-    width: 28.6rem;
-    height: 4.6rem;
-    display: block;
-    padding-left: 2rem;
+.center .pet_lar, .center .nosso-prato {
+    max-width: 43vw;
+    height: 46px;
+    display: flex;
     
-    background: #ffffff;
-    border: var(--defalt-border);
-    border-radius: var(--defalt-border-radius);
     
-    }
-
-    
-
-
-.we h1 span, .all h2 span  {
-    color: #FF5678
-
-}
-
-
-   
-
-
-
-
   
-.we h1 {
+}
 
-font-size: 6.4rem;
-font-weight: 500;
-line-height: 7.5rem;
-margin-left: 50rem;
-margin-top: 3rem;
 
+
+
+hr {
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+}
+
+.pet_lar p, .nosso-prato p {
+
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    margin-right: 20px;
+    
+}
+
+.pet_lar a {
+
+    color: #FF5678;
+    font-family: Poppins;
+    font-size: 24px;
+    /* font-weight: bold; */
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.pet_lar a > p,  {
+
+    font-weight: bold;
+
+
+}
+
+.center .pet_lar .abrigo {
+    width: 250px;
+    height: 40px;
+    top: 244px;
+    left: 390px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 12px;
+    border: 1px solid rgba(53, 230, 233, 1);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    color: rgba(53, 230, 233, 1);
+    margin-right: 50px;
+   
+}
+
+.nosso-prato .centro_alim {
+
+    width: 320px;
+    height: 40px;
+    top: 244px;
+    left: 390px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 12px;
+    border: 1px solid rgba(53, 230, 233, 1);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    color: rgba(53, 230, 233, 1);
+    margin-right: 50px;
+    
+
+
+
+    
 }
 
 
@@ -334,32 +393,8 @@ margin-top: 3rem;
  
 
 
-.bloco  {
-   
-    /* margin-top: 4rem; */
-    display: block;
-    margin: auto;
-  
-   /* gap: 4.6rem 0rem; */
-}
-
-.we {
-    grid-area: we;
-
-}
 
 
-.all {
-    grid-area: all;
 
-}
 
-/* .center label {
-    font-size: 2.4rem;
-    font-weight: 400;
-    text-transform: none;
-    margin-bottom: 1rem;
-    display: block;
-    margin-top: 1rem;
-    margin-left: 1.4rem;
-} */
+
