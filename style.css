@@ -116,7 +116,7 @@ main header {
 }
 
 
-.fa-home {
+.fa-chevron-left {
     color: #FF5678;
     /* font-size: 2.4rem; */
     font-size: 25px;
@@ -185,17 +185,17 @@ main form .select-div {
 
 
 
-main form .select-div::after {
+/* main form .select-div::after { */
 
-  /* top: 1.6rem;
+.fa-angle-down {
+  top: 1.6rem;
   right: 1.6rem;
-  /* font-size: 2.2rem; */
+  font-size: 2.2rem; 
   font-size: 25px;
-  content: '\f107';
-  font-weight: 600;
+  font-weight: 700;
   position: absolute;
   z-index: 1;
-  color: #35E6E9; */
+  color: #35E6E9; 
 
 }
 
@@ -208,7 +208,7 @@ main form .select-div::after {
     background-color: transparent;
     border: none;
     color: #35E6E9;
-    /* font-size: 2.4rem; */
+    font-size: 2.4rem;
     font-size: 25px;
     cursor: pointer;
    
@@ -228,7 +228,7 @@ main form input + button {
     background-color: transparent;
     border: none;
     color: #35E6E9;
-    /* font-size: 2.4rem; */
+    font-size: 2.4rem;
     font-size: 25px;
     cursor: pointer;
 
