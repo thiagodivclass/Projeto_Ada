@@ -332,13 +332,12 @@ hr {
     color: #FF5678;
     font-family: Poppins;
     font-size: 24px;
-    /* font-weight: bold; */
-    line-height: 36px;
+   line-height: 36px;
     text-align: left;
 
 }
 
-.pet_lar a > p,  {
+.pet_lar a > p  {
 
     font-weight: bold;
 
