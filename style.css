@@ -116,7 +116,7 @@ main header {
 }
 
 
-main header i {
+.fa-angle-left {
     color: #FF5678;
     /* font-size: 2.4rem; */
     font-size: 30px;
