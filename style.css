@@ -303,7 +303,7 @@ text-align: center;
 
 
 .center .pet_lar, .center .nosso-prato {
-    max-width: 43vw;
+    min-width: 43vw;
     height: 46px;
     display: flex;
     
@@ -373,7 +373,7 @@ hr {
 
 .nosso-prato .centro_alim {
 
-    width: 25vw;
+    min-width: 25vw;
     height: 40px;
     top: 244px;
     left: 390px;
