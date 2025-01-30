@@ -314,6 +314,8 @@ text-align: center;
 
 
 
+
+
 hr {
 
     margin-top: 2em;
@@ -337,7 +339,7 @@ hr {
     color: #FF5678;
     font-family: Poppins;
     font-size: 24px;
-   line-height: 36px;
+    line-height: 36px;
     text-align: left;
 
 }
@@ -392,6 +394,7 @@ hr {
     overflow: hidden;
     white-space: nowrap;
     outline: none;
+    padding: 0px 20px 0px 20px;
 
 
 
