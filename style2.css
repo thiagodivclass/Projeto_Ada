@@ -72,7 +72,7 @@ margin-bottom: 3rem;
 }
 
 
-main ul li a {
+main ul li a{
 
 color: #FF5678;
 text-align: center;
@@ -81,6 +81,7 @@ font-weight: bold;
 font-size: 2rem;
 
 }
+
 
 
 main ul li a:hover {
