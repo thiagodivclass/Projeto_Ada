@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root {
+    font-size: 62.5%;
+    --defalt-border: 0.1rem solid rgba(0,0,0,0.15);
+    --defalt-border-radius: 1.2rem;
+}
+
+
+body {
+    font-family: 'roboto',sans-serif;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+}
+
+
+main {
+height: 100vh;
+
+
+}
+
+main .title {
+color: #FF5678;
+text-align: center;
+margin-bottom: 5rem;
+
+}
+
+main img {
+width: 15rem;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+
+main iframe {
+
+border: 1px solid #FF5678;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+margin-top: 3rem;
+width: 75vw;
+height: 75vh;
+margin-bottom: 5rem;
+padding: 2rem;
+
+
+
+
+}
+
+
+main ul {
+
+list-style: none;
+text-align: center;
+margin-bottom: 3rem;
+
+
+}
+
+
+main ul li a {
+
+color: #FF5678;
+text-align: center;
+text-decoration: none;
+font-weight: bold;
+font-size: 2rem;
+
+}
+
