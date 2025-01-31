@@ -82,3 +82,20 @@ font-size: 2rem;
 
 }
 
+
+main ul li a:hover {
+
+text-decoration: underline;
+
+
+
+}
+
+
+
+main ul li {
+
+    margin-bottom: 2rem;
+
+}
+
